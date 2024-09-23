@@ -1,0 +1,30 @@
+{
+  "name": "campuschoice",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.6.3",
+    "@types/uuid": "^9.0.8",
+    "@vue/cli": "^5.0.8",
+    "bootstrap": "^5.3.3",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "firebase": "^10.9.0",
+    "firebase-functions": "^4.8.0",
+    "jquery": "^3.7.1",
+    "portal-vue": "^3.0.0-beta.0",
+    "vue": "^3.4.15",
+    "vue-loading-overlay": "^6.0.4",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.0.11"
+  }
+}

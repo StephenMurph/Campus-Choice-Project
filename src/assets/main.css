@@ -1,0 +1,380 @@
+
+#app {
+  max-width: 100%;
+  margin: 0;
+  font-weight: normal;
+  max-height: 800px;
+}
+
+.side-nav{
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 30px 15px;
+  background-color: white;
+  box-shadow: 0px 0px 20px black;
+  z-index: 1;
+
+}
+
+.upload-icon{
+  position: absolute;
+  left: 7%;
+  top: 51%;
+  height: 210px;
+  width: 210px;
+}
+
+.upload-icon-main{
+  position: absolute;
+  left: 7%;
+  top: 31%;
+  height: 210px;
+  width: 210px;
+}
+
+.leaderboard-icon{
+  position: absolute;
+  left: 14%;
+  top: 53%;
+  height: 175px;
+  width: 175px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.select-icon{
+  position: absolute;
+  left: 18%;
+  top: 32%;
+  height: 160px;
+  width: 160px;
+
+}
+
+.logout-icon{
+  position: absolute;
+  left: 23%;
+  top: 77%;
+  height: 175px;
+  width: 175px;
+}
+
+.choose-pleas{
+  position: absolute;
+  font-family: Arial;
+  font-size: 28px;
+  top: 8%;
+  left: 49%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 8px 8px 8px black;
+}
+
+.first{
+  max-height: 300px;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 8px black;
+  cursor: pointer;
+}
+.first-description{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+
+}
+
+.second-description{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+
+}
+
+.second{
+  max-height: 300px;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 8px black;
+  cursor: pointer;
+}
+
+#leaderboard-page {
+
+  background-color: #9f2b56; /* Set the background color to white */
+  height: 100%; /* Make the element height equal to the viewport height */
+}
+
+#page {
+  background-color: #9f2b56; /* Set the background color to white */
+  height: 100vh; /* Make the element height equal to the viewport height */
+  z-index: -1;
+}
+
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+
+}
+
+.select-container1 {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+
+}
+
+.select-container2 {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.cool-background{
+  position: absolute;
+  background-color: #9f2b56;
+  background-position: 50% 40%;
+  height: 100vh;
+  width: 100%
+}
+
+.cool-background-image{
+  display: none;
+}
+
+.crown{
+  position: absolute;
+  left: 50%
+
+
+}
+
+.crown-image{
+
+  width: 301px;
+  height: 167px;
+
+}
+
+
+.entry-container {;
+  position: relative;
+  top: 50%;
+  left: 57%;
+  max-width: 1200px;
+  transform: translate(-50%, -50%);
+  z-index: -0.5;
+  max-height: 1000px;}
+
+.entryImage{
+  max-height: 300px;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 8px black;
+  margin-right: 10%;
+}
+
+.entry-whitebox{
+  display: flex;
+  background-color: white;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Align items horizontally */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.login-whitebox{
+  background-color: white;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Align items horizontally */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.file-errorbox{
+  position: absolute;
+  font-size: 28px;
+  top: 75%;
+  left: 40%;
+  padding: 10px 20px;
+  background-color: #a42929;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.title-box{
+  position: absolute;
+  font-size: 42px;
+  font-family: "Arial";
+  text-align: center;
+  width: 400px;
+  top: 10%;
+  left: 45%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 8px 8px 8px black;
+}
+
+.desc-errorbox{
+  position: absolute;
+  font-size: 28px;
+  top: 83%;
+  left: 45%;
+  padding: 10px 20px;
+  background-color: #a42929;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.desc-error50box{
+  position: absolute;
+  font-size: 28px;
+  top: 83%;
+  left: 40%;
+  padding: 10px 20px;
+  background-color: #a42929;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.file-successbox{
+  position: absolute;
+  font-size: 28px;
+  top: 75%;
+  left: 35%;
+  padding: 10px 20px;
+  background-color: #11790e;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.logo-container-login{
+  position: absolute;
+  top: 38%;
+  left: 6%;
+  border-radius: 15px;
+}
+
+
+
+.white-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.select-white-box1 {
+  display: flex;
+  background-color: white;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+  padding: 40px;
+  min-width: 400px;
+  max-width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.select-white-box2 {
+  display: flex;
+  background-color: white;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+  padding: 40px;
+  min-width: 400px;
+  max-width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.place-number{
+  font-family: "Britannic Bold";
+  font-size: 80px;
+  margin-right: 20%;
+}
+
+.description{
+  font-size: 30px;
+  margin-left: 20px; /* Adjust margin to separate image and text */
+  margin-bottom: 40%;
+  margin-top: 30%;
+
+}
+
+.score{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 40%;
+}
+
+.display-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.display-image {
+  max-width: 100%;
+  max-height: 300px;
+  display: block;
+  border-radius: 8px;
+  margin-right: 8%;
+  box-shadow: 0px 4px 8px black;
+}
+
+.buttons-description-container{
+
+}
+
+.choose-button,
+.upload-button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 41%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.description-box{
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+.logout-image{
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
